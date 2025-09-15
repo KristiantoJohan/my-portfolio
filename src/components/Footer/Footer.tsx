@@ -1,6 +1,5 @@
 import { footerLinks, languages } from '@/appData'
 import { socials } from '@/appData/personal'
-import Logo from '../Navbar/Logo'
 
 const Footer = () => {
   return (
@@ -8,7 +7,6 @@ const Footer = () => {
       <div className="relative z-20 grid grid-cols-1 items-start gap-20 md:grid-cols-2 md:gap-12">
         <div>
           <h5 className="mb-8 flex items-center gap-2">
-            <Logo width={30} height={24} />
             <span className="text-neutral text-lg font-medium">Johan Kristianto</span>
           </h5>
           <p className="text-tertiary-content">
