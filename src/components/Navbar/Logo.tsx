@@ -1,4 +1,4 @@
-const Logo = (props: React.SVGProps<SVGSVGElement>) => {
+const Logo = () => {
 
 }
 

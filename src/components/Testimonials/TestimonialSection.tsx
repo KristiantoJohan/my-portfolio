@@ -1,18 +1,14 @@
 'use client'
 
 import { Testimonial } from '@/lib/types'
-import { useState } from 'react'
 import SectionHeading from '../SectionHeading/SectionHeading'
-import TestimonialCard from './TestimonialCard'
 import Timeline from '../Timeline/Timeline'
 
 interface TestimonialSectionProps {
   testimonials: Testimonial[]
 }
 
-const TestimonialSection: React.FC<TestimonialSectionProps> = ({ testimonials }) => {
-  const [activeCard, setActiveCard] = useState(0)
-
+const TestimonialSection: React.FC<TestimonialSectionProps> = () => {
   return (
     <section id="testimonials" className='mb-14'>
       <SectionHeading
