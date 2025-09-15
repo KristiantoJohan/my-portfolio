@@ -1,42 +1,30 @@
 // Data for portfolio
+import { Cloud, Cpu, Globe, Server, Shield, Smartphone } from 'lucide-react'
 import {
+  CodeigniterIcon,
+  DockerIcon,
   ExpressjsIcon,
+  JavaIcon,
   JavaScriptIcon,
+  JenkinsIcon,
+  KotlinIcon,
+  LaravelIcon,
+  LinuxIcon,
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
+  PhpIcon,
   ReactIcon,
   SocketIcon,
+  SpringIcon,
   TailwindCSS,
   TypescriptIcon,
 } from '../utils/icons'
 
 // Project Data
-export const projects = [
+export const projects = [  
   {
     priority: 1,
-    title: 'Project Alpha',
-    shortDescription:
-      'A groundbreaking project that revolutionizes the way we approach technology. Built with cutting-edge tools for maximum efficiency, it sets new industry standards.',
-    cover:
-      'https://images.unsplash.com/photo-1585282263861-f55e341878f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    livePreview: 'https://example.com/alpha',
-    type: 'Client Work 🙍‍♂️',
-    siteAge: '1 month old',
-  },
-  {
-    priority: 2,
-    title: 'Project Beta',
-    shortDescription:
-      'Project Beta is a static technical blog site built with GatsbyJS. I share tips on topics like building reusable components in React, explaining JavaScript methods and concepts, Node.js scripts, and more.',
-    cover:
-      'https://plus.unsplash.com/premium_photo-1663040328859-48bddaa9dfeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    livePreview: 'https://example.com/beta',
-    visitors: '8K Visitors',
-    earned: '$400 Earned',
-  },
-  {
-    priority: 3,
     title: 'Project Epsilon',
     shortDescription:
       'A collection of engaging coding challenges designed to help developers improve their ReactJS skills by writing functional business logic. Your task is to make it functional by writing business logic, to improve your frontend skills',
@@ -50,7 +38,7 @@ export const projects = [
     numberOfSales: '138 Sales',
   },
   {
-    priority: 4,
+    priority: 2,
     title: 'Ejucationzz',
     shortDescription:
       'Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed. Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.',
@@ -68,54 +56,62 @@ export const projects = [
 // Service Data
 export const serviceData = [
   {
-    icon: JavaScriptIcon,
-    title: 'JavaScript Development',
-    shortDescription: 'Creating dynamic and interactive web applications using JavaScript.',
+    icon: Globe,
+    title: "Enterprise Application",
+    shortDescription: "Designing and building scalable enterprise-grade software solutions.",
   },
   {
-    icon: ReactIcon,
-    title: 'React.js Development',
-    shortDescription: 'Building modern and responsive user interfaces with React.js.',
+    icon: Cloud,
+    title: "SaaS Development",
+    shortDescription: "Delivering cloud-based applications with secure and reliable infrastructure.",
   },
   {
-    icon: NodejsIcon,
-    title: 'Node.js Backend',
-    shortDescription: 'Developing scalable server-side applications using Node.js.',
+    icon: Smartphone,
+    title: "Android Development",
+    shortDescription: "Creating intuitive mobile applications for Android platforms.",
   },
   {
-    icon: NextjsIcon,
-    title: 'Next.js Development',
-    shortDescription: 'Creating server-rendered React applications with Next.js.',
+    icon: Cpu,
+    title: "IoT Solutions",
+    shortDescription: "Integrating smart devices with cloud and mobile ecosystems.",
   },
   {
-    icon: TypescriptIcon,
-    title: 'TypeScript Development',
-    shortDescription: 'Ensuring robust and maintainable code with TypeScript.',
+    icon: Server,
+    title: "IT Infrastructure",
+    shortDescription: "Building and managing reliable server, cloud, and network environments.",
   },
   {
-    icon: TailwindCSS,
-    title: 'Tailwind CSS Styling',
-    shortDescription: 'Designing beautiful and responsive interfaces with Tailwind CSS.',
+    icon: Shield,
+    title: "Cybersecurity",
+    shortDescription: "Implementing secure authentication, authorization, and data protection.",
   },
-]
+];
 
 // Skill List
 export const skillList = [
   {
-    name: 'JavaScript',
-    icon: JavaScriptIcon,
+    name: 'Java',
+    icon: JavaIcon,
   },
   {
     name: 'TypeScript',
     icon: TypescriptIcon,
   },
   {
-    name: 'React.js',
-    icon: ReactIcon,
+    name: 'JavaScript',
+    icon: JavaScriptIcon,
   },
   {
-    name: 'Next.js',
-    icon: NextjsIcon,
+    name: 'PHP',
+    icon: PhpIcon,
+  },
+  {
+    name: 'Kotlin',
+    icon: KotlinIcon,
+  },
+  {
+    name: 'Spring Framework',
+    icon: SpringIcon,
   },
   {
     name: 'Node.js',
@@ -126,23 +122,42 @@ export const skillList = [
     icon: ExpressjsIcon,
   },
   {
-    name: 'Nest.js',
-    icon: NestjsIcon,
+    name: 'Next.js',
+    icon: NextjsIcon,
   },
   {
-    name: 'Socket.io',
-    icon: SocketIcon,
+    name: 'React.js',
+    icon: ReactIcon,
   },
+  {
+    name: 'Tailwind CSS',
+    icon: TailwindCSS,
+  },
+  {
+    name: 'Laravel',
+    icon: LaravelIcon,
+  },
+  {
+    name: 'Codeigniter',
+    icon: CodeigniterIcon,
+  },
+  {
+    name: 'Linux',
+    icon: LinuxIcon,
+  },
+  {
+    name: 'Docker',
+    icon: DockerIcon,
+  },
+  {
+    name: 'Jenkins',
+    icon: JenkinsIcon,
+  }
 ]
 
 export const footerLinks = [
   { title: 'About', href: '#' },
-  { title: 'Projects', href: '#projects' },
-  { title: 'Testimonials', href: '#testimonials' },
-  {
-    title: 'Blogs',
-    href: '#blogs',
-  },
+  { title: 'Projects', href: '#projects' },  
   {
     title: 'Services',
     href: '#services',
@@ -172,4 +187,4 @@ export const themes = [
   },
 ]
 
-export const languages = ['En', 'Es', 'Fr', 'De', 'Ru']
+export const languages = ['English', 'Indonesia']

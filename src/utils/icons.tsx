@@ -1,14 +1,23 @@
 import { FC, SVGProps } from 'react'
 
+import CodeigniterIcon from '../assets/icons/codeigniter.svg'
+import DockerIcon from '../assets/icons/docker.svg'
 import Earning from '../assets/icons/earning.svg'
 import ExpressjsIcon from '../assets/icons/express.svg'
 import JavaScriptIcon from '../assets/icons/javascript.svg'
 import Likes from '../assets/icons/likes.svg'
 import NestjsIcon from '../assets/icons/nest.svg'
+import LaravelIcon from '../assets/icons/laravel.svg'
+import KotlinIcon from '../assets/icons/kotlin.svg'
 import NextjsIcon from '../assets/icons/nextjs.svg'
 import NodejsIcon from '../assets/icons/nodejs.svg'
+import JavaIcon from '../assets/icons/java.svg'
+import JenkinsIcon from '../assets/icons/jenkins.svg'
+import LinuxIcon from '../assets/icons/linux.svg'
+import PhpIcon from '../assets/icons/php.svg'
 import ReactIcon from '../assets/icons/react.svg'
 import SocketIcon from '../assets/icons/socket.svg'
+import SpringIcon from '../assets/icons/spring.svg'
 import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
@@ -314,22 +323,31 @@ export {
   ChevronRightIcon,
   CloseIcon,
   Codepen,
+  CodeigniterIcon,
+  DockerIcon,
   Earning,
   ExpressjsIcon,
   Facebook,
   GithubIcon,
   Instagram,
   JavaScriptIcon,
+  JenkinsIcon,
   Likes,
   LinkedIn,
   MsgIcon,
   NestjsIcon,
+  KotlinIcon,
+  LaravelIcon,
   NextjsIcon,
   NodejsIcon,
   PhoneIcon,
   PreviewIcon,
+  JavaIcon,
+  LinuxIcon,
+  PhpIcon,
   ReactIcon,
   SocketIcon,
+  SpringIcon,
   Star,
   StarIcon,
   TailwindCSS,

@@ -6,8 +6,8 @@ const ServiceSection = () => {
   return (
     <section id="services" className="my-14">
       <SectionHeading
-        title="// Services / Offers:"
-        subtitle="I offer a wide range of services to ensure you have the best written code and stay ahead in the competition."
+        title="// Expertise / Specialties:"
+        subtitle="Focused on building scalable applications, clean architecture, and innovative digital solutions."
       />
 
       <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 md:mt-[3.75rem] md:grid-cols-3">
