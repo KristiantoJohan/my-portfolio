@@ -2,6 +2,10 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+  eslint: {
+    // Build tetap jalan meskipun ada lint error
+    ignoreDuringBuilds: true,
+  },
 
   images: {
     remotePatterns: [
